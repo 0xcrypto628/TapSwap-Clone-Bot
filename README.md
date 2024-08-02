@@ -12,20 +12,18 @@ We can clone and customize popular crypto clicker games like Tapswap, Hamster an
 
 Also in our portfolio there are ready-made clickers that we can quickly set up for you and launching such a game will take a short time.
 
-Functions:
+**Functions:**
+🤘 Tap - Click for mine coins <br>
+🚀 Boosts - Daily rewards and Boosts<br>
+🤝 Referrals - Invite friends and recieve rewards<br>
+📝 Tasks - Do tasks and earn points<br>
 
-🤘 Tap - Click for mine coins
-🚀 Boosts - Daily rewards and Boosts
-🤝 Referrals - Invite friends and recieve rewards
-📝 Tasks - Do tasks and earn points
-You are getting:
-
-A configured bot that is already working
-Basic functional (mine-tap / boosts / refferals / tasks)
-Minor design adjustments (change styles / logos)
-Source code
-Example Clicker
-https://t.me/Tap3WebBot
-You can try the starting version of the bot including the basic functionality: https://t.me/Tap3WebBot
-We can install ready-made solutions for you, or make you a unique clicker with a unique design.
+**You are getting:**
+A configured bot that is already working<br>
+Basic functional (mine-tap / boosts / refferals / tasks)<br>
+Minor design adjustments (change styles / logos)<br>
+Source code<br>
+Example Clicker<br>
+You can try the starting version of the bot including the basic functionality: https://t.me/Tap3WebBot<br>
+We can install ready-made solutions for you, or make you a unique clicker with a unique design.<br>
 Contact : https://t.me/yellowflash628
