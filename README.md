@@ -1,83 +1,31 @@
 [<img src="https://img.shields.io/badge/Telegram-%40Me-orange">](https://t.me/yellowflash628)
-
-
+# TapSwap-Clone
+# Tap-Mini-App-Clicker
+Mini App Clicker for Telegram - Copy Tapswap, Notcoin, Hamster | Tap To Earn Telegram
+<p align="center">
 <img src="https://github.com/lehoang11/tap-mini-app-click/blob/9a6e2240567c49b12007cc64c115780892264dac/photo_2024-07-25_01-12-32.jpg" alt="Mini App Telegram Clicker - Copy Tapswap, Blum, Hamster" data-canonical-src="https://i.imgur.com/ozcJaWV.jpg" style="max-width: 100%;">
+</p>
+Mini App Clicker for Telegram - Copy Tapswap, Notcoin, Hamster
+We create Clicker games in Mini App Telegram.
 
+We can clone and customize popular crypto clicker games like Tapswap, Hamster and Notcoin, or create a hybrid that combines their best features!
 
-## Features  
-| Features                                                              |     Supported     |
-|---------------------------------------------------------------       -|:-----------------:|
-| Multithreading                                                        |        ✅        |
-| Binding proxy to session                                              |        ✅        |
-| Auto-purchase of items when coins are available (tap, energy, charge) |        ✅        |
-| Random sleep time between clicks                                      |        ✅        |
-| Random number of clicks per request                                   |        ✅        |
-| Support tdata / program .session / telethon .session                  |        ✅        |
+Also in our portfolio there are ready-made clickers that we can quickly set up for you and launching such a game will take a short time.
 
+Functions:
 
-## [Настройки](https://github.com/shamhi/TapSwapBot/blob/main/.env-example)
-| Настройка                | Описание                                                                                      |
-|--------------------------|-----------------------------------------------------------------------------------------------|
-| **API_ID / API_HASH**    | Данные платформы, с которой запускать сессию Telegram _(сток - Android)_                      |
-| **MIN_AVAILABLE_ENERGY** | Минимальное количество доступной энергии, при достижении которой будет задержка _(напр. 100)_ |
-| **SLEEP_BY_MIN_ENERGY**  | Задержка при достижении минимальной энергии в секундах _(напр. [1800,2400])_                  |
-| **ADD_TAPS_ON_TURBO**    | Сколько тапов будет добавлено при активации турбо _(напр. 2500)_                              |
-| **AUTO_UPGRADE_TAP**     | Улучшать ли тап _(True / False)_                                                              |
-| **MAX_TAP_LEVEL**        | Максимальный уровень прокачки тапа _(до 20)_                                                  |
-| **AUTO_UPGRADE_ENERGY**  | Улучшать ли энергию _(True / False)_                                                          |
-| **MAX_ENERGY_LEVEL**     | Максимальный уровень прокачки энергии _(до 20)_                                               |
-| **AUTO_UPGRADE_CHARGE**  | Улучшать ли заряд энергии _(True / False)_                                                    |
-| **MAX_CHARGE_LEVEL**     | Максимальный уровень прокачки заряда энергии _(до 5)_                                         |
-| **APPLY_DAILY_ENERGY**   | Использовать ли ежедневный бесплатный буст энергии _(True / False)_                           |
-| **APPLY_DAILY_TURBO**    | Использовать ли ежедневный бесплатный буст турбо _(True / False)_                             |
-| **RANDOM_CLICKS_COUNT**  | Рандомное количество тапов _(напр. [50,200])_                                                 |
-| **SLEEP_BETWEEN_TAP**    | Рандомная задержка между тапами в секундах _(напр. [10,25])_                                  |
-| **USE_PROXY_FROM_FILE**  | Использовать-ли прокси из файла `bot/config/proxies.txt` _(True / False)_                     |
+🤘 Tap - Click for mine coins
+🚀 Boosts - Daily rewards and Boosts
+🤝 Referrals - Invite friends and recieve rewards
+📝 Tasks - Do tasks and earn points
+You are getting:
 
-## Быстрый старт 📚
-1. Чтобы установить библиотеки в Windows, запустите INSTALL.bat.
-2. Для запуска бота используйте `START.bat` (или в консоли: `python main.py`).
-
-## Предварительные условия
-Прежде чем начать, убедитесь, что у вас установлено следующее:
-- [Python](https://www.python.org/downloads/) версии 3.10 или 3.11.
-
-## Получение API ключей
-1. Перейдите на сайт [my.telegram.org](https://my.telegram.org) и войдите в систему, используя свой номер телефона.
-2. Выберите **"API development tools"** и заполните форму для регистрации нового приложения.
-3. Запишите `API_ID` и `API_HASH` в файле `.env`, предоставленные после регистрации вашего приложения.
-
-## Установка
-Вы можете скачать [**Репозиторий**](https://github.com/shamhi/TapSwapBot) клонированием на вашу систему и установкой необходимых зависимостей:
-```shell
-~ >>> git clone https://github.com/shamhi/TapSwapBot.git 
-~ >>> cd TapSwapBot
-
-# Linux
-~/TapSwapBot >>> python3 -m venv venv
-~/TapSwapBot >>> source venv/bin/activate
-~/TapSwapBot >>> pip3 install -r requirements.txt
-~/TapSwapBot >>> cp .env-example .env
-~/TapSwapBot >>> nano .env  # Здесь вы обязательно должны указать ваши API_ID и API_HASH , остальное берется по умолчанию
-~/TapSwapBot >>> sh install.sh
-~/TapSwapBot >>> python3 main.py
-
-# Windows
-~/TapSwapBot >>> python -m venv venv
-~/TapSwapBot >>> venv\Scripts\activate
-~/TapSwapBot >>> pip install -r requirements.txt
-~/TapSwapBot >>> copy .env-example .env
-~/TapSwapBot >>> # Указываете ваши API_ID и API_HASH, остальное берется по умолчанию
-~/TapSwapBot >>> python main.py
-```
-
-Также для быстрого запуска вы можете использовать аргументы, например:
-```shell
-~/TapSwapBot >>> python3 main.py --action (1/2/3)
-# Или
-~/TapSwapBot >>> python3 main.py -a (1/2/3)
-
-# 1 - Создает сессию
-# 2 - Запускает кликер
-# 3 - Запуск через Telegram
-```
+A configured bot that is already working
+Basic functional (mine-tap / boosts / refferals / tasks)
+Minor design adjustments (change styles / logos)
+Source code
+Example Clicker
+https://t.me/Tap3WebBot
+You can try the starting version of the bot including the basic functionality: https://t.me/Tap3WebBot
+We can install ready-made solutions for you, or make you a unique clicker with a unique design.
+Contact : https://t.me/yellowflash628
