@@ -1,18 +1,18 @@
 [<img src="https://img.shields.io/badge/Telegram-%40Me-orange">](https://t.me/yellowflash628)
 
 
-![img1](.github/images/demo.png)
+<img src="https://github.com/lehoang11/tap-mini-app-click/blob/9a6e2240567c49b12007cc64c115780892264dac/photo_2024-07-25_01-12-32.jpg" alt="Mini App Telegram Clicker - Copy Tapswap, Blum, Hamster" data-canonical-src="https://i.imgur.com/ozcJaWV.jpg" style="max-width: 100%;">
 
 
 ## Features  
-| Features                                                       |     Supported     |
-|----------------------------------------------------------------|:-----------------:|
-| Многопоточность                                                |        ✅        |
-| Привязка прокси к сессии                                       |        ✅        |
-| Авто-покупка предметов при наличии монет (tap, energy, charge) |        ✅        |
-| Рандомное время сна между кликами                              |        ✅        |
-| Рандомное количество кликов за запрос                          |        ✅        |
-| Поддержка tdata / pyrogram .session / telethon .session        |        ✅        |
+| Features                                                              |     Supported     |
+|---------------------------------------------------------------       -|:-----------------:|
+| Multithreading                                                        |        ✅        |
+| Binding proxy to session                                              |        ✅        |
+| Auto-purchase of items when coins are available (tap, energy, charge) |        ✅        |
+| Random sleep time between clicks                                      |        ✅        |
+| Random number of clicks per request                                   |        ✅        |
+| Support tdata / program .session / telethon .session                  |        ✅        |
 
 
 ## [Настройки](https://github.com/shamhi/TapSwapBot/blob/main/.env-example)
